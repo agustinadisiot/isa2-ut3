@@ -29,4 +29,5 @@
      "NroEstudiante":123456
     }
     ```
+  - DELETE http://localhost:5000/api/estudiante/[id] - elimina el estudiante con id = [id]
 
