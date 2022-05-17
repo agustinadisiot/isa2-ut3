@@ -9,7 +9,8 @@
 
 - GET http://localhost:5000/api/estudiante - retorna todos los estudiantes que fueron creados en memoria
 - GET http://localhost:5000/api/estudiante/[id] - retorna los datos de un estudiante con id = [id]
-- POST http://localhost:5000/api/estudiante - crear nuevo estudiante, ej. para body
+
+- POST http://localhost:5000/api/estudiante - crear nuevo estudiante, ej. para body:
   
   ```
   {
@@ -20,12 +21,12 @@
   ```
  - PUT http://localhost:5000/api/estudiante - editar un estudiante ya existente, ej. para body:
   
-  ```
-  {
-   "Id":1,
-   "Nombre":"Carina",
-   "Apellido":"Fontan San Martín",
-   "NroEstudiante":123456
-  }
-  ```
+    ```
+    {
+     "Id":1,
+     "Nombre":"Carina",
+     "Apellido":"Fontan",
+     "NroEstudiante":123456
+    }
+    ```
 
